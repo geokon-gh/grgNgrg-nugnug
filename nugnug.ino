@@ -12,7 +12,7 @@
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 IPAddress ip(192, 168, 1, 177);
 
-// This is limited to the hardware to 1500.
+// This is limited to the hardware to 1522.
 //You can use a smaller value if you need the allocated buffers to be smaller
 #define UDP_PACKET_MAX_SIZE 540
 #define MAX_LEDS_ON_PORT UDP_PACKET_MAX_SIZE/LED_CHANNELS
